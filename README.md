@@ -20,9 +20,12 @@ A fully custom DirectX9 graphics engine built to be optimized and realistic.
 Screenshots made with stock settings, no color grading.
 
 Tested on:
+
 A GTX 970, Windows 7: 9500-11000 FPS (windows limited)
+
 A GTX 750 Ti, Windows 10 21H2: 4600-5000 FPS (windows limited)
 An FX 4800 [~GTX 260], Windows 10 21H2: 3600-4100 FPS
+
 A GMA 945 iGPU + Atom N270: Windows XP SP3: 38-45 FPS
 
 
