@@ -4,11 +4,11 @@ A fully custom DirectX9 graphics engine built to be optimized and realistic.
 ## Graphical features:
 - Shadows
 - Ambient occlusion
-- Anti Aliasing (MSAA and FXAA)
+- Anti Aliasing (MSAA / FXAA)
 - Reflections
-- Light bounces
+- Path traced light bounces
 - Colored shadows / light sources
-- Fully configurable graphics settings with a settings file
+- Fully configurable graphics settings with an advanced menu
 
 
 <img width="246" height="309" alt="colored bouncing light2" src="https://github.com/user-attachments/assets/adcc710a-5f92-413f-b99e-9ff88680e947" /> <img width="434" height="156" alt="colored bouncing light_corrected" src="https://github.com/user-attachments/assets/4d0c604c-52b7-4c96-ba09-4f29fb3329fb" />
@@ -24,6 +24,7 @@ Tested on:
 A GTX 970, Windows 7: 9500-11000 FPS (windows limited)
 
 A GTX 750 Ti, Windows 10 21H2: 4600-5000 FPS (windows limited)
+
 An FX 4800 [~GTX 260], Windows 10 21H2: 3600-4100 FPS
 
 A GMA 945 iGPU + Atom N270: Windows XP SP3: 38-45 FPS
