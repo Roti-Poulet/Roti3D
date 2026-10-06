@@ -29,7 +29,9 @@ A GTX 750 Ti, Windows 10 21H2: 4600-5000 FPS (windows limited)
 
 An FX 4800 [~GTX 260], Windows 10 21H2: 3600-4100 FPS [2300 FPS if maxed out]
 
-A GMA 945 iGPU + Atom N270: Windows XP SP3: 38-45 FPS
+A Gefore 9300 GS, Windows 7: 220-250 FPS
+
+A GMA 945 iGPU + Atom N270: Windows XP SP3: 55-70 FPS
 
 
 ## How it works:
@@ -43,17 +45,18 @@ Moving objects shadows and reflections are planned, but it will need custom supp
 ## Minimum requirements:
 - Shader Model 2.0 (DirectX9) compatible GPU
 - 1 GHz single core CPU
-- 48 MB of available RAM*
+- 96 MB of available RAM*
 - 32 MB of VRAM
-- Windows 2000 (NT 5). Support hasn't been tested on NT4/Win9x
+- Windows 2000 (NT 5)**
 
 ## Recommended requirements:
 - Shader Model 3.0 (DirectX9.0c) compatible GPU
 - 3 GHz single core CPU / 2 GHz dual core CPU
-- 96 MB of available RAM*
-- 128 MB of VRAM
+- 196 MB of available RAM*
+- 64 MB of VRAM
 - Windows Vista (NT 6).
 
 The requirements aim for (native) 720p 60 FPS, and doesn't take in count the amount of time it takes to bake everything because you can pack baked lighting with your game.
 
 *: Depends on the ram allocation policy of the OS. Windows 10 [NT10] allocates way more RAM than Windows 2000 [NT5]
+**: Support hasn't been tested on NT4/Win9x, but it will probably work in software rendering mode
